@@ -39,3 +39,6 @@ alias reset="src"
 
 # PIP
 alias pip="python3 -m pip "
+
+# ML
+alias ml="cd ~/Projects/Job/DS/ML/ml-coursera-python-assignments/ && jupyter notebook"

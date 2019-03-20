@@ -1,3 +1,17 @@
+function boil(){
+	if [ $# -eq 0 ]
+  	then
+    	echo "No module name supplied. Usage: boil [module_name]"
+			exit
+	fi
+
+	pipenv --three
+	touch $1.py test_$1.py README.md Makefile main.py
+	echo "init:\n\tpipenv install\n\tpipenv shell\ntest:\n\tpython -m unittest" >> README.md
+	echo "Successfully boil[ed] into `pipenv --where`"
+}
+
+
 # Hide desktop icons
 function hide() { 
 	defaults write com.apple.finder CreateDesktop false
