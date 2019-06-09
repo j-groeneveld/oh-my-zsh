@@ -8,6 +8,9 @@ export PATH="~/.local/bin:$PATH";
 # Add gettext
 export PATH="/usr/local/opt/gettext/bin:$PATH"
 
+# Add sbin
+export PATH="/usr/local/sbin:$PATH"
+
 ####################
 ### Back of PATH ###
 ####################

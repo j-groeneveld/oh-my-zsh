@@ -38,7 +38,10 @@ alias localip="ipconfig getifaddr en0"
 alias reset="src"
 
 # PIP
-alias pip="python3 -m pip "
+#alias pip="python3 -m pip "
 
 # ML
 alias ml="cd ~/Projects/Job/DS/ML/ml-coursera-python-assignments/ && jupyter notebook"
+
+# Stripe
+alias stripe="cd ~/Projects/Job/Stripe"
